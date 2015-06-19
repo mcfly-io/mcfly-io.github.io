@@ -53,7 +53,7 @@ module.exports = '<header id="header" class="section header active-section">\n' 
 module.exports = '<!-- PARALLAX SECTION -->\n' +
     '<section>\n' +
     '    <section class="bigger-padding section background-wrapper with-overlay primary-overlay half-overlay active-section">\n' +
-    '        <div class="background-image parallax-background" data-stellar-background-ratio="0.5" style="background: url(demo/home/biking1.jpg) 0% -45px;"></div>\n' +
+    '        <div class="background-image parallax-background" data-stellar-background-ratio="0.5"></div>\n' +
     '        <div class="container">\n' +
     '            <div class="row">\n' +
     '                <div class="col-md-6">\n' +
@@ -65,7 +65,7 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '                            <a class="btn btn-punch btn-white hover-primary hover-colors btn-sm" role="button">Install</a>\n' +
     '                            <a class="btn btn-punch btn-info btn-sm btn-darker" role="button">Tutorial</a>\n' +
     '                            <a class="btn" style="padding-top: 10px;">\n' +
-    '                                <iframe src="https://ghbtns.com/github-btn.html?user=thaiat&repo=generator-angular-famous-ionic&type=star&count=true&size=large" frameborder="0" scrolling="0" style="position:initial;margin:0;width:160px;height:30px"></iframe>\n' +
+    '                                <iframe src="https://ghbtns.com/github-btn.html?user=mcfly-io&repo=generator-mcfly&type=star&count=true&size=large" frameborder="0" scrolling="0" style="position:initial;margin:0;width:160px;height:30px"></iframe>\n' +
     '                            </a>\n' +
     '                        </p>\n' +
     '                    </div>\n' +
@@ -131,10 +131,10 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '                                    </a>\n' +
     '                                </div>\n' +
     '                            </div>\n' +
-    '                            MCFLY\n' +
+    '                            mcfly cli\n' +
     '                        </div>\n' +
     '                        <div class="content">\n' +
-    '                            <div class="line">> npm install mcfly</div>\n' +
+    '                            <div class="line">> npm install -g mcfly</div>\n' +
     '                            <div class="line">> yo mcfly awesomeApp</div>\n' +
     '                        </div>\n' +
     '                    </div>\n' +
@@ -175,7 +175,8 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '            <div class="row">\n' +
     '                <div class="col-md-8 col-md-offset-2 text-center">\n' +
     '                    <h1 class="lighter">Magic, but not black magic</h1>\n' +
-    '                    <p class="lead">We use standard and well maintained technologies. That’s the assemblage of those technologies that creates the magic, not some hack or proprietary protocol that no one else is using. You will feel at home right away. </p>\n' +
+    '                    <p class="lead">We use standard and well maintained technologies. That’s the assemblage of those technologies that creates the magic, not some hack or proprietary protocol that no one else is using.\n' +
+    '                    <br><strong> You will feel at home right away.</strong></p>\n' +
     '                    <div class="space hidden-sm hidden-xs"></div>\n' +
     '                </div>\n' +
     '                <!-- /.col -->\n' +
@@ -183,7 +184,7 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '                    <div class="service-block">\n' +
     '                        <i class="icon ti-package ttext-primary"></i>\n' +
     '                        <h4 class="lighter">Smaller is better</h4>\n' +
-    '                        <p>The amount of code you need to write is very short, because we truly believe that in software programming smaller is better.</p>\n' +
+    '                        <p>The amount of code you need to write is very, very short. We truly believe that in software programming smaller is better.</p>\n' +
     '                        <div class="space hidden-sm hidden-xs"></div>\n' +
     '                    </div>\n' +
     '                </div>\n' +
