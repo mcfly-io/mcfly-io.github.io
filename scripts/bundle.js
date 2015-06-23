@@ -20,13 +20,16 @@
 "use strict";module.exports=function(e){require(9)(e)};
 
 },{"9":9}],8:[function(require,module,exports){
-module.exports = '<header id="header" class="section header active-section">\n' +
+module.exports = '<header id="header" class="section header active-section white-background">\n' +
     '    <div class="container">\n' +
     '        <div class="row">\n' +
     '            <div class="col-md-3">\n' +
+    '\n' +
     '                <div class="logo">\n' +
+    '\n' +
     '                    <a href="" title="">\n' +
-    '                        <img src="images/app/logo.png" class="standard-logo middle-content" alt="" style="height:90px">\n' +
+    '                        <h4  style="margin-top:15px;font-style:italic">MCFLY.IO</h4>\n' +
+    '                        <img src="images/app/logo.png" class="standard-logo middle-content" alt="" style="height:90px;display:none">\n' +
     '                    </a>\n' +
     '                </div>\n' +
     '            </div>\n' +
@@ -46,7 +49,7 @@ module.exports = '<header id="header" class="section header active-section">\n' 
     '            </div>\n' +
     '        </div>\n' +
     '    </div>\n' +
-    '  \n' +
+    '\n' +
     '</header>\n' +
     '';
 },{}],9:[function(require,module,exports){
@@ -58,18 +61,18 @@ module.exports = '<header id="header" class="section header active-section">\n' 
 },{"11":11,"12":12,"13":13,"16":16,"18":18,"2":2,"5":5,"7":7}],11:[function(require,module,exports){
 module.exports = '<!-- PARALLAX SECTION -->\n' +
     '<section>\n' +
-    '    <section class="bigger-padding section background-wrapper with-overlay primary-overlay half-overlay active-section">\n' +
+    '    <section class="bigger-padding section background-wrapper half-overlay active-section info-background">\n' +
     '        <div class="background-image parallax-background" data-stellar-background-ratio="0.5"></div>\n' +
     '        <div class="container">\n' +
     '            <div class="row">\n' +
     '                <div class="col-md-6">\n' +
     '                    <div class="element">\n' +
-    '                        <h2>FullStack & Realtime made easy</h2>\n' +
+    '                        <h2>Fullstack & Realtime made easy</h2>\n' +
     '                        <div class="heading-line big color-white" style="width:100%"></div>\n' +
     '                        <p class="lead larger-lead">Discover the easiest way to build amazing web and mobile apps in JavaScript</p>\n' +
     '                        <p>\n' +
     '                            <a class="btn btn-punch btn-white hover-primary hover-colors btn-sm" role="button">Install</a>\n' +
-    '                            <a class="btn btn-punch btn-info btn-sm btn-darker" role="button">Tutorial</a>\n' +
+    '                            <a class="btn btn-punch btn-success btn-sm btn-darker" role="button">Tutorial</a>\n' +
     '                            <a class="btn" style="padding-top: 10px;">\n' +
     '                                <iframe src="https://ghbtns.com/github-btn.html?user=mcfly-io&repo=generator-mcfly&type=star&count=true&size=large" frameborder="0" scrolling="0" style="position:initial;margin:0;width:160px;height:30px"></iframe>\n' +
     '                            </a>\n' +
@@ -77,7 +80,7 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '                    </div>\n' +
     '                </div>\n' +
     '                <div class="col-md-6 text-center">\n' +
-    '                    <img src="images/app/backtothefuture.png">\n' +
+    '                    <img src="images/app/backtothefuture_burned.png">\n' +
     '                </div>\n' +
     '            </div>\n' +
     '        </div>\n' +
@@ -153,24 +156,48 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '        </div>\n' +
     '    </section>\n' +
     '\n' +
-    '    <section class="section grey-background" style="padding:0;padding-top:10px;padding-bottom:100px">\n' +
-    '        <div style="margin:auto;width:60vw;">\n' +
+    '    <section class="section active-section info-background">\n' +
+    '        <div class="container">\n' +
+    '            <div class="row">\n' +
+    '                <div class="col-md-12">\n' +
+    '                    <h2 class="lighter">Why MCFLY ?</h2>\n' +
+    '                    <p class="lead large-lead">We have spent the last couple of years trying out new technologies, figuring out what could be the best possible stack, but without compromising on flexibility and giving us the ability to make our own choices when needed.</p>\n' +
+    '                    <p class="lead large-lead">Whenever it is possible we are always using automation, in order to get things done in the second. Our CTO is one of the top 10 contributors for yeoman, and it is used extensively in our solution, both on the client and the server.</p>\n' +
+    '                </div>\n' +
+    '            </div>\n' +
+    '        </div>\n' +
+    '    </section>\n' +
+    '\n' +
+    '    <section class="section grey-background" sstyle="padding:0;padding-top:10px;padding-bottom:100px">\n' +
+    '\n' +
+    '        <div class="container">\n' +
+    '            <div class="row">\n' +
+    '                <div class="col-md-12">\n' +
+    '                    <h2 class="lighter">See it in action...</h2>\n' +
+    '                    <div class="video-container">\n' +
+    '                        <iframe src="http://www.youtube.com/embed/CYPgXyN5OTI" frameborder="0" width="560" height="315"></iframe>\n' +
+    '                    </div>\n' +
+    '                </div>\n' +
+    '            </div>\n' +
+    '        </div>\n' +
+    '\n' +
+    '        <!--  <div style="margin:auto;width:60vw;">\n' +
     '            <div class="row">\n' +
     '                <div class="col-md-12 col-md-offset-0 text-left">\n' +
     '                    <h2 class="lighter">See it in action...</h2>\n' +
     '                    <br>\n' +
     '                </div>\n' +
     '            </div>\n' +
-    '            <!--   <video width="100%" preload="auto" poster="images/app/mcfly-slacker-final.png" controls="controls">\n' +
+    '               <video width="100%" preload="auto" poster="images/app/mcfly-slacker-final.png" controls="controls">\n' +
     '                <source src="https://www.youtube.com/watch?v=EgRh09CO_rk" type="video/mp4" />\n' +
     '                <img src="images/app/mcfly-slacker-final.png" alt="">\n' +
     '            </video>\n' +
-    '            <-->\n' +
+    '            <\n' +
     '            <div class="video-container">\n' +
     '                <iframe src="http://www.youtube.com/embed/CYPgXyN5OTI" frameborder="0" width="560" height="315"></iframe>\n' +
     '            </div>\n' +
     '\n' +
-    '        </div>\n' +
+    '        </div> -->\n' +
     '    </section>\n' +
     '    <!--     <section class="section active-section grey-background ">\n' +
     '        <div class="container">\n' +
@@ -243,7 +270,7 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '                    <div class="service-block">\n' +
     '                        <i class="icon ti-cloud ttext-primary"></i>\n' +
     '                        <h4 class="lighter">Database agnostic</h4>\n' +
-    '                        <p>You can switch around datasources (in-memory, SQL, noSQL, REST, SOAP, etc…), without impacting the client side or your REST API.</p>\n' +
+    '                        <p>You can swap around datasources (in-memory, SQL, NOSQL, REST, SOAP, etc…), without impacting the client side or your REST API.</p>\n' +
     '                    </div>\n' +
     '                </div>\n' +
     '                <!-- /.col -->\n' +
@@ -251,18 +278,19 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '                    <div class="service-block">\n' +
     '                        <i class="icon ti-rocket ttext-primary"></i>\n' +
     '                        <h4 class="lighter">Hot deploys</h4>\n' +
-    '                        <p>Type one command to push your app into production and update all connected browsers and devices. No need to go through the App Store.</p>\n' +
+    '                        <p>Use one command to push your code into production and update instantly all connected devices. No need to go through the App Stores.</p>\n' +
     '                    </div>\n' +
     '                </div>\n' +
     '                <div class="col-md-4">\n' +
     '                    <div class="service-block">\n' +
     '                        <i class="icon ti-face-smile ttext-primary"></i>\n' +
-    '                        <h4 class="lighter">Full Lifecycle managemnt</h4>\n' +
+    '                        <h4 class="lighter">Lifecycle management</h4>\n' +
     '                        <p>\n' +
-    '                            - Fast build process using gulp with ready to use tasks\n' +
-    '                            <br/> - Instrument your code with Sentry and Mixpanel in one line of code\n' +
-    '                            <br/> - Publish for testing to testfairy\n' +
-    '                            <br/>- Enjoy hot push code for instantly updating</p>\n' +
+    '                            - Fast build process with ready to use tasks\n' +
+    '                            <br/>- Instrument your code with Sentry and Mixpanel\n' +
+    '                            <br/>- Publish your app to testfairy\n' +
+    '                            <br/>- Enjoy hot push code for instantly updating\n' +
+    '                        </p>\n' +
     '\n' +
     '                        <br/>\n' +
     '                    </div>\n' +
@@ -274,7 +302,7 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '        <!-- /.container -->\n' +
     '    </section>\n' +
     '\n' +
-    '    <div class="section black-background active-section">\n' +
+    '    <div class="section black-background active-section" style="padding-top:20px;padding-bottom:20px">\n' +
     '        <div class="container">\n' +
     '            <div class="row">\n' +
     '                <!-- <div class="col-md-3">\n' +
