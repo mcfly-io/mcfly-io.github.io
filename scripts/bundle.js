@@ -154,7 +154,7 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '    </section>\n' +
     '\n' +
     '    <section class="section grey-background" style="padding:0;padding-top:10px;padding-bottom:100px">\n' +
-    '        <div style="margin:0 20vw;width:60vw;">\n' +
+    '        <div style="margin:auto;width:60vw;">\n' +
     '            <div class="row">\n' +
     '                <div class="col-md-12 col-md-offset-0 text-left">\n' +
     '                    <h2 class="lighter">See it in action...</h2>\n' +
