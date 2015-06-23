@@ -67,7 +67,7 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '            <div class="row">\n' +
     '                <div class="col-md-6">\n' +
     '                    <div class="element">\n' +
-    '                        <h2>Fullstack & Realtime made easy</h2>\n' +
+    '                        <h2>MCFLY: Full-stack & Realtime made easy</h2>\n' +
     '                        <div class="heading-line big color-white" style="width:100%"></div>\n' +
     '                        <p class="lead larger-lead">Discover the easiest way to build amazing web and mobile apps in JavaScript</p>\n' +
     '                        <p>\n' +
@@ -80,7 +80,7 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '                    </div>\n' +
     '                </div>\n' +
     '                <div class="col-md-6 text-center">\n' +
-    '                    <img src="images/app/backtothefuture_burned.png">\n' +
+    '                    <img src="images/app/backtothefuture_burned.png" style="display:none">\n' +
     '                </div>\n' +
     '            </div>\n' +
     '        </div>\n' +
@@ -114,9 +114,8 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '            <div class="row">\n' +
     '                <div class="col-md-6">\n' +
     '                    <h2 class="lighter">What\'s MCFLY ?</h2>\n' +
-    '                    <p class="lead large-lead">MCFLY is a javascript full stack platform for building easily realtime mobile hybrid and web single page app using latest (but mainstream) libraries and framework.</p>\n' +
-    '                    <p class="lead large-lead">We are not a new platform, we are the glue that connects together awesome frameworks to give you the best possible experience in the minimum time.\n' +
-    '                    </p>\n' +
+    '                    <p class="lead large-lead">MCFLY  is a full-stack javascript platform for painlessly building realtime hybrid mobile and single page apps using the latest mainstream libraries and frameworks, giving you maximum development power in minimum time.</p>\n' +
+    '                    <p class="lead large-lead">We are not a new awesome framework. We are the glue between awesome frameworks.</p>\n' +
     '                </div>\n' +
     '                <div class="col-md-6 terminal">\n' +
     '                    <div class="window" style="height:300px;margin-top:50px">\n' +
@@ -175,6 +174,7 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '                <div class="col-md-12">\n' +
     '                    <h2 class="lighter">See it in action...</h2>\n' +
     '                    <div class="video-container">\n' +
+    '\n' +
     '                        <iframe src="http://www.youtube.com/embed/CYPgXyN5OTI" frameborder="0" width="560" height="315"></iframe>\n' +
     '                    </div>\n' +
     '                </div>\n' +
@@ -248,7 +248,7 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '                <div class="col-md-4">\n' +
     '                    <div class="service-block">\n' +
     '                        <i class="icon ti-target ttext-primary"></i>\n' +
-    '                        <h4 class="lighter">Isomorphic - Full stack</h4>\n' +
+    '                        <h4 class="lighter">Isomorphic - Full-stack</h4>\n' +
     '                        <p>When accessing your data model and entities, you write same code on the server and the client. This reduces the level of complexity and code maintenance, and allows you to reuse your knowledge in javascript.\n' +
     '                        </p>\n' +
     '                        <div class="space hidden-sm hidden-xs"></div>\n' +
@@ -302,7 +302,7 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '        <!-- /.container -->\n' +
     '    </section>\n' +
     '\n' +
-    '    <section class="section active-section grey-background">\n' +
+    '    <section class="section active-section grey-background" style="display:none">\n' +
     '        <div class="container">\n' +
     '\n' +
     '            <div class="row">\n' +
