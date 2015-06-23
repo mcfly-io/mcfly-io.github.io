@@ -28,7 +28,7 @@ module.exports = '<header id="header" class="section header active-section white
     '                <div class="logo">\n' +
     '\n' +
     '                    <a href="" title="">\n' +
-    '                        <h4  style="margin-top:15px;font-style:italic">MCFLY.IO</h4>\n' +
+    '                        <h4  style="margin-top:15px;font-style:italic;font-weight:bolder;color:#2196f3;">MCFLY.IO</h4>\n' +
     '                        <img src="images/app/logo.png" class="standard-logo middle-content" alt="" style="height:90px;display:none">\n' +
     '                    </a>\n' +
     '                </div>\n' +
@@ -67,7 +67,7 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '            <div class="row">\n' +
     '                <div class="col-md-6">\n' +
     '                    <div class="element">\n' +
-    '                        <h2>MCFLY: Full-stack realtime made easy</h2>\n' +
+    '                        <h2>Full-stack realtime made easy</h2>\n' +
     '                        <div class="heading-line big color-white" style="width:100%"></div>\n' +
     '                        <p class="lead larger-lead">Discover the easiest way to build amazing web and mobile apps in JavaScript</p>\n' +
     '                        <p>\n' +
@@ -147,7 +147,7 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '                        </div>\n' +
     '                        <div class="content">\n' +
     '                            <div class="line">> npm install -g mcfly</div>\n' +
-    '                            <div class="line">> yo mcfly awesomeApp</div>\n' +
+    '                            <div class="line">> yo mcfly awesome-app</div>\n' +
     '                        </div>\n' +
     '                    </div>\n' +
     '                </div>\n' +
@@ -160,8 +160,8 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '            <div class="row">\n' +
     '                <div class="col-md-12">\n' +
     '                    <h2 class="lighter">Why MCFLY ?</h2>\n' +
-    '                    <p class="lead large-lead">We have spent the last couple of years trying new technologies, and figuring out what could be the best possible stack, but without compromising on flexibility and giving us the ability to make our own choices when needed.</p>\n' +
-    '                    <p class="lead large-lead">Whenever it is possible we are always using automation, in order to get things done in the second. Our CTO is one of the top 10 contributors for yeoman, and it is used extensively in our solution, both on the client and the server.</p>\n' +
+    '                    <p class="lead large-lead">We have spent the last couple of years trying new technologies, and figuring out what could be the best possible stack, but without compromising on flexibility and keeping sure we could still make our own choices when needed.</p>\n' +
+    '                    <p class="lead large-lead">Whenever it is possible we are using automation, in order to get things done in the second. Our CTO is one of the top 10 contributors for yeoman, and it is used extensively in our solution, both on the client and the server. This ensures the team follows same best practices and never tries to reinvent the wheel.</p>\n' +
     '                </div>\n' +
     '            </div>\n' +
     '        </div>\n' +
