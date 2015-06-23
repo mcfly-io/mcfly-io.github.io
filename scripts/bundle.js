@@ -67,7 +67,7 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '            <div class="row">\n' +
     '                <div class="col-md-6">\n' +
     '                    <div class="element">\n' +
-    '                        <h2>MCFLY: Full-stack & Realtime made easy</h2>\n' +
+    '                        <h2>MCFLY: Full-stack realtime made easy</h2>\n' +
     '                        <div class="heading-line big color-white" style="width:100%"></div>\n' +
     '                        <p class="lead larger-lead">Discover the easiest way to build amazing web and mobile apps in JavaScript</p>\n' +
     '                        <p>\n' +
