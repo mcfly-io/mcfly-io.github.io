@@ -115,7 +115,7 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '                <div class="col-md-6">\n' +
     '                    <h2 class="lighter">What\'s MCFLY ?</h2>\n' +
     '                    <p class="lead large-lead">MCFLY is a javascript full stack platform for building easily realtime mobile hybrid and web single page app using latest (but mainstream) libraries and framework.</p>\n' +
-    '                    <p class="lead large-lead">But we are not a new platform, we are the glue that connects together awesome frameworks to give you what we consider the best possible tools in the minimum learning curve.\n' +
+    '                    <p class="lead large-lead">We are not a new platform, we are the glue that connects together awesome frameworks to give you the best possible experience in the minimum time.\n' +
     '                    </p>\n' +
     '                </div>\n' +
     '                <div class="col-md-6 terminal">\n' +
@@ -161,7 +161,7 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '            <div class="row">\n' +
     '                <div class="col-md-12">\n' +
     '                    <h2 class="lighter">Why MCFLY ?</h2>\n' +
-    '                    <p class="lead large-lead">We have spent the last couple of years trying out new technologies, figuring out what could be the best possible stack, but without compromising on flexibility and giving us the ability to make our own choices when needed.</p>\n' +
+    '                    <p class="lead large-lead">We have spent the last couple of years trying new technologies, and figuring out what could be the best possible stack, but without compromising on flexibility and giving us the ability to make our own choices when needed.</p>\n' +
     '                    <p class="lead large-lead">Whenever it is possible we are always using automation, in order to get things done in the second. Our CTO is one of the top 10 contributors for yeoman, and it is used extensively in our solution, both on the client and the server.</p>\n' +
     '                </div>\n' +
     '            </div>\n' +
@@ -270,7 +270,7 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '                    <div class="service-block">\n' +
     '                        <i class="icon ti-cloud ttext-primary"></i>\n' +
     '                        <h4 class="lighter">Database agnostic</h4>\n' +
-    '                        <p>You can swap around datasources (in-memory, SQL, NOSQL, REST, SOAP, etc…), without impacting the client side or your REST API.</p>\n' +
+    '                        <p>You can swap around datasources (in-memory, SQL, NOSQL, REST, SOAP, etc…), without impacting the client side or your REST api.</p>\n' +
     '                    </div>\n' +
     '                </div>\n' +
     '                <!-- /.col -->\n' +
@@ -278,7 +278,7 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '                    <div class="service-block">\n' +
     '                        <i class="icon ti-rocket ttext-primary"></i>\n' +
     '                        <h4 class="lighter">Hot deploys</h4>\n' +
-    '                        <p>Use one command to push your code into production and update instantly all connected devices. No need to go through the App Stores.</p>\n' +
+    '                        <p>Use one command to push your code into production and update instantly all connected devices. No need to go through the app stores and wait for several weeks.</p>\n' +
     '                    </div>\n' +
     '                </div>\n' +
     '                <div class="col-md-4">\n' +
@@ -314,7 +314,7 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '            <div class="row">\n' +
     '                <div class="col-md-4">\n' +
     '                    <div class="promo-block grey-background" data-animate="fadeInRight">\n' +
-    '                        <div class="pb-header success-background">Mcfly.io</div>\n' +
+    '                        <div class="pb-header success-background">MCFLY.IO</div>\n' +
     '                        <div class="pb-content success-background clearfix">\n' +
     '\n' +
     '                            <ul>\n' +
