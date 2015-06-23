@@ -166,9 +166,10 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '                <img src="images/app/mcfly-slacker-final.png" alt="">\n' +
     '            </video>\n' +
     '            <-->\n' +
+    '            <div class="video-container">\n' +
+    '                <iframe src="http://www.youtube.com/embed/CYPgXyN5OTI" frameborder="0" width="560" height="315"></iframe>\n' +
+    '            </div>\n' +
     '\n' +
-    '            <iframe style="width:100%;" height="800" frameborder="0" src="http://www.youtube.com/embed/CYPgXyN5OTI">\n' +
-    '            </iframe>\n' +
     '        </div>\n' +
     '    </section>\n' +
     '    <!--     <section class="section active-section grey-background ">\n' +
