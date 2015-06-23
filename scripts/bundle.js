@@ -82,6 +82,7 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '            </div>\n' +
     '        </div>\n' +
     '    </section>\n' +
+    '\n' +
     '    <section class="section grey-background" style="padding:15px">\n' +
     '        <div class="container">\n' +
     '            <div class="row">\n' +
@@ -104,6 +105,7 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '            </div>\n' +
     '        </div>\n' +
     '    </section>\n' +
+    '\n' +
     '    <section class="section active-section ">\n' +
     '        <div class="container">\n' +
     '            <div class="row">\n' +
@@ -150,6 +152,25 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '            </div>\n' +
     '        </div>\n' +
     '    </section>\n' +
+    '\n' +
+    '    <section class="section grey-background" style="padding:0;padding-top:10px;padding-bottom:100px">\n' +
+    '        <div style="margin:0 20vw;width:60vw;">\n' +
+    '            <div class="row">\n' +
+    '                <div class="col-md-12 col-md-offset-0 text-left">\n' +
+    '                    <h2 class="lighter">See it in action...</h2>\n' +
+    '                    <br>\n' +
+    '                </div>\n' +
+    '            </div>\n' +
+    '            <!--   <video width="100%" preload="auto" poster="images/app/mcfly-slacker-final.png" controls="controls">\n' +
+    '                <source src="https://www.youtube.com/watch?v=EgRh09CO_rk" type="video/mp4" />\n' +
+    '                <img src="images/app/mcfly-slacker-final.png" alt="">\n' +
+    '            </video>\n' +
+    '            <-->\n' +
+    '\n' +
+    '            <iframe style="width:100%;" height="800" frameborder="0" src="http://www.youtube.com/embed/CYPgXyN5OTI">\n' +
+    '            </iframe>\n' +
+    '        </div>\n' +
+    '    </section>\n' +
     '    <!--     <section class="section active-section grey-background ">\n' +
     '        <div class="container">\n' +
     '            <div class="row">\n' +
@@ -166,17 +187,14 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '    </section> -->\n' +
     '    <!-- /.section -->\n' +
     '    <section class="section divider-section active-section">\n' +
-    '        <div class="container">\n' +
+    '        <!-- <div class="container">\n' +
     '            <div class="row">\n' +
     '                <div class="col-md-12">\n' +
     '                    <div class="divider"></div>\n' +
-    '                    <!-- /.divider -->\n' +
+    '\n' +
     '                </div>\n' +
-    '                <!-- /.col -->\n' +
     '            </div>\n' +
-    '            <!-- /.row -->\n' +
-    '        </div>\n' +
-    '        <!-- /.container -->\n' +
+    '        </div> -->\n' +
     '    </section>\n' +
     '    <section class="section active-section wwith-overlay pprimary-overlay">\n' +
     '        <div class="container">\n' +
