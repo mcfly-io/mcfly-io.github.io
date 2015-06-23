@@ -302,6 +302,77 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '        <!-- /.container -->\n' +
     '    </section>\n' +
     '\n' +
+    '    <section class="section active-section grey-background">\n' +
+    '        <div class="container">\n' +
+    '\n' +
+    '            <div class="row">\n' +
+    '                <div class="col-md-12">\n' +
+    '                    <h2 class="lighter">Quick comparison</h2>\n' +
+    '                </div>\n' +
+    '            </div>\n' +
+    '            <br>\n' +
+    '            <div class="row">\n' +
+    '                <div class="col-md-4">\n' +
+    '                    <div class="promo-block grey-background" data-animate="fadeInRight">\n' +
+    '                        <div class="pb-header success-background">Mcfly.io</div>\n' +
+    '                        <div class="pb-content success-background clearfix">\n' +
+    '\n' +
+    '                            <ul>\n' +
+    '                                <li>Main stream stack</li>\n' +
+    '                                <li>Database agnostic</li>\n' +
+    '                                <li>Hot Push</li>\n' +
+    '                                <li>Isomorphic</li>\n' +
+    '                            </ul>\n' +
+    '                        </div>\n' +
+    '                    </div>\n' +
+    '                </div>\n' +
+    '                <div class="col-md-4">\n' +
+    '                    <div class="promo-block grey-background" data-animate="fadeInRight">\n' +
+    '                        <div class="pb-header info-background">Firebase</div>\n' +
+    '                        <div class="pb-content info-background clearfix">\n' +
+    '                            <i class="icon-background large icon-flag"></i>\n' +
+    '\n' +
+    '                            <ul>\n' +
+    '                                <li>Proprietary</li>\n' +
+    '                                <li>Proprietary</li>\n' +
+    '                                <li>Not supported</li>\n' +
+    '                                <li>Client only</li>\n' +
+    '                            </ul>\n' +
+    '                        </div>\n' +
+    '                    </div>\n' +
+    '                </div>\n' +
+    '                <div class="col-md-4">\n' +
+    '                    <div class="promo-block grey-background" data-animate="fadeInRight">\n' +
+    '                        <div class="pb-header info-background">Meteor</div>\n' +
+    '                        <div class="pb-content info-background clearfix">\n' +
+    '\n' +
+    '                            <ul>\n' +
+    '                                <li>Proprietary parts (build process, DDP,..)</li>\n' +
+    '                                <li>MongoDB prime citizen</li>\n' +
+    '                                <li>Hot push</li>\n' +
+    '                                <li>Isomorphic (minimongo)</li>\n' +
+    '                            </ul>\n' +
+    '                        </div>\n' +
+    '                    </div>\n' +
+    '                </div>\n' +
+    '                <div class="col-md-3" style="display:none">\n' +
+    '                    <div class="promo-block grey-background" data-animate="fadeInRight">\n' +
+    '                        <div class="pb-header info-background">Free</div>\n' +
+    '                        <div class="pb-content info-background clearfix">\n' +
+    '\n' +
+    '                            <ul>\n' +
+    '                                <li>Pagebuilder Pro</li>\n' +
+    '                                <li>Retina Ready</li>\n' +
+    '                                <li>Prmium Design</li>\n' +
+    '                                <li>Unlimited MySQL</li>\n' +
+    '                            </ul>\n' +
+    '                        </div>\n' +
+    '                    </div>\n' +
+    '                </div>\n' +
+    '            </div>\n' +
+    '        </div>\n' +
+    '    </section>\n' +
+    '\n' +
     '    <div class="section black-background active-section" style="padding-top:20px;padding-bottom:20px">\n' +
     '        <div class="container">\n' +
     '            <div class="row">\n' +
