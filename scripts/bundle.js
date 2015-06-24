@@ -117,28 +117,28 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '                <div class="col-md-12">\n' +
     '                    <h2 class="lighter">A bit of context</h2>\n' +
     '                    <p class="lead" style="text-align:justify;margin-bottom:20px">\n' +
-    '                        In the beginning I thought I would come up with a bold and provocative statement such as\n' +
+    '                        At first I thought I would come up with a bold and provocative statement like\n' +
     '                        <span style="font-style:italic">"How we did firebase in a day"</span>, or\n' +
-    '                        <span style="font-style:italic">"Meteor done the right way"</span> and then I thought again... The truth is I always liked Firebase and Meteor and find their approach super smart. I played a lot with both but couldn\'t really decide to jump in and make them my stack.\n' +
-    '                        <br>Firebase first is an MBaaS so you don\'t really own it. You are limited if you want to do complex queries or need to hack the server as we all need to at some point... And try to convince a big French company that their data are going to be somewhere on the cloud along with many others. not fun...\n' +
-    '                        <br>As for Meteor, it\'s amazing to see how many bright ideas they\'ve implemented, but it never felt main stream enough: the build system is odd to say the least, minimongo highly couples the client with Mongodb, and sticky session are a no go for me when you need to scale.\n' +
-    '                        <br>So I decided to give it a try on my own and I came up with MCFLY.\n' +
+    '                        <span style="font-style:italic">"Meteor done the right way"</span>. Then I thought again. The truth is I always liked Firebase and Meteor and I find their approach to be super smart. I played with them a lot but couldn\'t really decide to take the jump and make them my stack.\n' +
+    '                        <br>Firebase first is an MBaaS so you don\'t really own it. You are limited if you want to do complex queries or need to hack the server as we all need to at some point... And trying to convince a big French company that their data will be somewhere out there on the cloud alongside many others...not fun.\n' +
+    '                        <br>As for Meteor, it was amazing to see how many bright ideas they implemented, but it was not mainstream enough. Then the build system is weird to say the least. Most importantly, tight coupling with mongo , and reliance on sticky session are non starters for me when you need to scale.\n' +
+    '                        <br>So I decided to give it a try on my own and came up with MCFLY.\n' +
     '                        <br>\n' +
     '                        <br>The requirements were:\n' +
     '                        <ul style="font-size:16px;padding:0;margin:0;padding-left:20px">\n' +
-    '                            <li>Use main stream tech only (npm, bower, angular, gulp browserify etc...).</li>\n' +
-    '                            <li>You should be able to install it easily localy, on a customer data center, or in the cloud.</li>\n' +
-    '                            <li>It should lightweight, easy to tweak and keep in pace with evolutions. (you don\'t need a 1500 commits repo to switch from angular to react).</li>\n' +
-    '                            <li>It should be mobile first, secured and it should encourage code reuse between frontends.</li>\n' +
-    '                            <li>It should be built to scale and use stateless servers.</li>\n' +
-    '                            <li>It should be full stack and database agnostic.</li>\n' +
-    '                            <li>It should elegantly marry REST and realtime and not force you to choose between the two.</li>\n' +
+    '                            <li>Use main stream tech only (npm, bower, angular, gulp, browserify etc...).</li>\n' +
+    '                            <li>Should be able to easily install and run it on a local machine, a customer data center, or the cloud.</li>\n' +
+    '                            <li>Should be/feel lightweight, easy to tweak and keep pace with the state of the art. (i.e no 1500 commit repo to switch from angular to react).</li>\n' +
+    '                            <li>Should be mobile first, secure and encourage reuse of code between frontends.</li>\n' +
+    '                            <li>Should be built-to-scale and use stateless servers.</li>\n' +
+    '                            <li>Should be full-stack and database agnostic.</li>\n' +
+    '                            <li>Should elegantly marry REST and realtime and not force you to choose between the two.</li>\n' +
     '                        </ul>\n' +
     '\n' +
     '                    </p>\n' +
     '                    <p class="lead">We have been using MCFLY internally for the past 6 months and we are very happy with it. It works great!!!\n' +
-    '                        <br>I\'m not sure yet I want to open source... It will really depends on the traction.\n' +
-    '                        <br>I\'d love to hear your feedback and if you think this could also be usefull for you.\n' +
+    '                        <br>I\'m still not sure if I want to go open source, this or not, it will really depends on the traction.\n' +
+    '                        <br>I\'d love to hear your feedback and if you think this could be useful for you to.\n' +
     '                    </p>\n' +
     '                </div>\n' +
     '            </div>\n' +
@@ -325,7 +325,7 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '                            - Fast build process with ready to use tasks\n' +
     '                            <br/>- Instrument your code with Sentry and Mixpanel\n' +
     '                            <br/>- Publish your app to testfairy\n' +
-    '                            <br/>- Enjoy hot push code for instantly updating\n' +
+    '                            <br/>- Enjoy hot push code for instant updates of your app\n' +
     '                        </p>\n' +
     '\n' +
     '                        <br/>\n' +
