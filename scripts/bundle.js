@@ -41,6 +41,8 @@ module.exports = '<header id="header" class="section header active-section white
     '                        <li class="dropdown"><a href="#">Get Started</a> </li>\n' +
     '                        <li class="dropdown"><a href="#about">Documentation</a> </li>\n' +
     '                        <li class="dropdown"><a href="#">Support</a> </li>\n' +
+    '                        <li class="dropdown"><a href="mailto:ahaiat@mcfly.io">Mail</a> </li>\n' +
+    '                        <li class="dropdown"><a class="btn btn-info btn-sm btn-darker" style="padding:10px;line-height:0px;color:white;" href="https://gitter.im/mcfly-io">Chat Room</a></li>\n' +
     '                    </ul>\n' +
     '                </div>\n' +
     '            </div>\n' +
@@ -61,7 +63,7 @@ module.exports = '<header id="header" class="section header active-section white
 },{"11":11,"12":12,"13":13,"16":16,"18":18,"2":2,"5":5,"7":7}],11:[function(require,module,exports){
 module.exports = '<!-- PARALLAX SECTION -->\n' +
     '<section>\n' +
-    '    <section class="bigger-padding section background-wrapper half-overlay active-section info-background">\n' +
+    '    <section class="section background-wrapper half-overlay active-section info-background">\n' +
     '        <div class="background-image parallax-background" data-stellar-background-ratio="0.5"></div>\n' +
     '        <div class="container">\n' +
     '            <div class="row">\n' +
@@ -109,12 +111,46 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '        </div>\n' +
     '    </section>\n' +
     '\n' +
-    '    <section class="section active-section ">\n' +
+    '    <section class="section white-background">\n' +
+    '        <div class="container">\n' +
+    '            <div class="row">\n' +
+    '                <div class="col-md-12">\n' +
+    '                    <h2 class="lighter">A bit of context</h2>\n' +
+    '                    <p class="lead" style="text-align:justify;margin-bottom:20px">\n' +
+    '                        In the beginning I thought I would come up with a bold and provocative statement such as\n' +
+    '                        <span style="font-style:italic">"How we did firebase in a day"</span>, or\n' +
+    '                        <span style="font-style:italic">"Meteor done the right way"</span> and then I thought again... The truth is I always liked Firebase and Meteor and find their approach super smart. I played a lot with both but couldn\'t really decide to jump in and make them my stack.\n' +
+    '                        <br>Firebase first is an MBaaS so you don\'t really own it. You are limited if you want to do complex queries or need to hack the server as we all need to at some point... And try to convince a big French company that their data are going to be somewhere on the cloud along with many others. not fun...\n' +
+    '                        <br>As for Meteor, it\'s amazing to see how many bright ideas they\'ve implemented, but it never felt main stream enough: the build system is odd to say the least, minimongo highly couples the client with Mongodb, and sticky session are a no go for me when you need to scale.\n' +
+    '                        <br>So I decided to give it a try on my own and I came up with MCFLY.\n' +
+    '                        <br>\n' +
+    '                        <br>The requirements were:\n' +
+    '                        <ul style="font-size:16px;padding:0;margin:0;padding-left:20px">\n' +
+    '                            <li>Use main stream tech only (npm, bower, angular, gulp browserify etc...).</li>\n' +
+    '                            <li>You should be able to install it easily localy, on a customer data center, or in the cloud.</li>\n' +
+    '                            <li>It should lightweight, easy to tweak and keep in pace with evolutions. (you don\'t need a 1500 commits repo to switch from angular to react).</li>\n' +
+    '                            <li>It should be mobile first, secured and it should encourage code reuse between frontends.</li>\n' +
+    '                            <li>It should be built to scale and use stateless servers.</li>\n' +
+    '                            <li>It should be full stack and database agnostic.</li>\n' +
+    '                            <li>It should elegantly marry REST and realtime and not force you to choose between the two.</li>\n' +
+    '                        </ul>\n' +
+    '\n' +
+    '                    </p>\n' +
+    '                    <p class="lead">We have been using MCFLY internally for the past 6 months and we are very happy with it. It works great!!!\n' +
+    '                        <br>I\'m not sure yet I want to open source... It will really depends on the traction.\n' +
+    '                        <br>I\'d love to hear your feedback and if you think this could also be usefull for you.\n' +
+    '                    </p>\n' +
+    '                </div>\n' +
+    '            </div>\n' +
+    '        </div>\n' +
+    '    </section>\n' +
+    '\n' +
+    '    <section class="section active-section grey-background">\n' +
     '        <div class="container">\n' +
     '            <div class="row">\n' +
     '                <div class="col-md-6">\n' +
     '                    <h2 class="lighter">What\'s MCFLY ?</h2>\n' +
-    '                    <p class="lead large-lead">MCFLY  is a full-stack javascript platform for painlessly building realtime hybrid mobile and single page apps using the latest mainstream libraries and frameworks, giving you maximum development power in minimum time.</p>\n' +
+    '                    <p class="lead large-lead">MCFLY is a full-stack javascript platform for painlessly building realtime hybrid mobile and single page apps using the latest mainstream libraries and frameworks, giving you maximum development power in minimum time.</p>\n' +
     '                    <p class="lead large-lead">We are not a new awesome framework. We are the glue between awesome frameworks.</p>\n' +
     '                </div>\n' +
     '                <div class="col-md-6 terminal">\n' +
@@ -155,7 +191,7 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '        </div>\n' +
     '    </section>\n' +
     '\n' +
-    '    <section class="section active-section info-background">\n' +
+    '    <section class="section active-section white-background">\n' +
     '        <div class="container">\n' +
     '            <div class="row">\n' +
     '                <div class="col-md-12">\n' +
