@@ -8,13 +8,13 @@
 "use strict";var constantname="loopbackConstant";module.exports=function(t){t.constant(t.name+"."+constantname,{baseUrl:"https://mcflyio.herokuapp.com/api"})};
 
 },{}],4:[function(require,module,exports){
-"use strict";var controllername="home";module.exports=function(e){function r(e){var r=this;r.controllername=n,r.register=function(n){r.registerError=!1,r.registerSuccess=!1;var t=r.email;r.email=null,e.create({email:t}).$promise.then(function(){r.registerSuccess=!0})["catch"](function(){r.registerError=!0,r.email=t})["finally"](function(){r.email=null})}}var n=e.name+"."+controllername,t=["Subscriber"];r.$inject=t,e.controller(n,r)};
+"use strict";var controllername="home";module.exports=function(e){function r(e){var r=this;r.controllername=n,r.register=function(n){r.registerError=!1,r.registerSuccess=!1;var t=r.email;return r.email=null,e.create({email:t}).$promise.then(function(){r.registerSuccess=!0})["catch"](function(){r.registerError=!0,r.email=t})["finally"](function(){r.email=null})}}var n=e.name+"."+controllername,t=["Subscriber"];r.$inject=t,e.controller(n,r)};
 
 },{}],5:[function(require,module,exports){
 "use strict";module.exports=function(e){require(4)(e),require(6)(e)};
 
 },{"4":4,"6":6}],6:[function(require,module,exports){
-"use strict";var controllername="root";module.exports=function(n){function o(){var n=this;n.controllername=r;var o=function(){};o()}var r=n.name+"."+controllername,t=[];o.$inject=t,n.controller(r,o)};
+"use strict";var controllername="root";module.exports=function(o){function r(){var o=this;o.controllername=n}var n=o.name+"."+controllername,e=[];r.$inject=e,o.controller(n,r)};
 
 },{}],7:[function(require,module,exports){
 "use strict";module.exports=function(e){require(9)(e)};
@@ -28,8 +28,8 @@ module.exports = '<header id="header" class="section header active-section white
     '                <div class="logo">\n' +
     '\n' +
     '                    <a href="" title="">\n' +
-    '                        <h4  style="margin-top:15px;font-style:italic;font-weight:bolder;color:#2196f3;">MCFLY.IO</h4>\n' +
-    '                        <img src="images/app/logo.png" class="standard-logo middle-content" alt="" style="height:90px;display:none">\n' +
+    '                        <h4  style="margin-top:15px;font-style:italic;font-weight:bolder;color:#2196f3;display:none">MCFLY.IO</h4>\n' +
+    '                        <img src="images/app/mcfly-logo.png" class="standard-logo middle-content" alt="" style="height:50px;">\n' +
     '                    </a>\n' +
     '                </div>\n' +
     '            </div>\n' +
@@ -42,7 +42,7 @@ module.exports = '<header id="header" class="section header active-section white
     '                        <li class="dropdown"><a href="#about">Documentation</a> </li>\n' +
     '                        <li class="dropdown"><a href="#">Support</a> </li>\n' +
     '                        <li class="dropdown"><a href="mailto:ahaiat@mcfly.io">Mail</a> </li>\n' +
-    '                        <li class="dropdown"><a class="btn btn-info btn-sm btn-darker" style="padding:10px;line-height:0px;color:white;" href="https://gitter.im/mcfly-io">Chat Room</a></li>\n' +
+    '                        <li class="dropdown"><a class="btn btn-punch btn-info btn-sm btn-darker" style="padding:10px;line-height:0px;color:white;" href="https://gitter.im/mcfly-io">Chat Room</a></li>\n' +
     '                    </ul>\n' +
     '                </div>\n' +
     '            </div>\n' +
@@ -71,7 +71,7 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '                    <div class="element">\n' +
     '                        <h2>Full-stack realtime made easy</h2>\n' +
     '                        <div class="heading-line big color-white" style="width:100%"></div>\n' +
-    '                        <p class="lead larger-lead">Discover the easiest way to build amazing web and mobile apps in JavaScript</p>\n' +
+    '                        <p class="lead larger-lead">Discover the easiest way to build amazing realtime web and mobile apps in JavaScript</p>\n' +
     '                        <p>\n' +
     '                            <a class="btn btn-punch btn-white hover-primary hover-colors btn-sm" role="button">Install</a>\n' +
     '                            <a class="btn btn-punch btn-success btn-sm btn-darker" role="button">Tutorial</a>\n' +
@@ -82,7 +82,10 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '                    </div>\n' +
     '                </div>\n' +
     '                <div class="col-md-6 text-center">\n' +
-    '                    <img src="images/app/backtothefuture_burned.png" style="display:none">\n' +
+    '                <img src="images/app/delorean.png" style="width:110%" alt="">\n' +
+    '               <!-- \n' +
+    '                    <div ssrc="images/app/delorean.png" xwidth="100%" style="display:none;width:500px;height:500px;background-image:url(\'images/app/delorean.png\');background-size: cover;" xwidth="160%" xstyle="position:relative;top:-130px;left:-40px">dddd</div>\n' +
+    '                -->\n' +
     '                </div>\n' +
     '            </div>\n' +
     '        </div>\n' +
@@ -126,13 +129,13 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '                        <br>\n' +
     '                        <br>The requirements were:\n' +
     '                        <ul style="font-size:16px;padding:0;margin:0;padding-left:20px">\n' +
-    '                            <li>Use main stream tech only (npm, bower, angular, gulp, browserify etc...).</li>\n' +
-    '                            <li>Should be able to easily install and run it on a local machine, a customer data center, or the cloud.</li>\n' +
-    '                            <li>Should be/feel lightweight, easy to tweak and keep pace with the state of the art. (i.e no 1500 commit repo to switch from angular to react).</li>\n' +
-    '                            <li>Should be mobile first, secure and encourage reuse of code between frontends.</li>\n' +
-    '                            <li>Should be built-to-scale and use stateless servers.</li>\n' +
-    '                            <li>Should be full-stack and database agnostic.</li>\n' +
-    '                            <li>Should elegantly marry REST and realtime and not force you to choose between the two.</li>\n' +
+    '                            <li>use main stream tech only (npm, bower, angular, gulp, browserify etc...).</li>\n' +
+    '                            <li>should be easy to install and run on a local machine, a customer data center, or the cloud.</li>\n' +
+    '                            <li>should be/feel lightweight, easy to tweak and keep pace with the state of the art. (i.e no 1500 commit repo to switch from angular to react).</li>\n' +
+    '                            <li>should be mobile first, secure and encourage reuse of code between frontends.</li>\n' +
+    '                            <li>should be built-to-scale and use stateless servers.</li>\n' +
+    '                            <li>should be full-stack and database agnostic.</li>\n' +
+    '                            <li>should elegantly marry REST and realtime and not force you to choose between the two.</li>\n' +
     '                        </ul>\n' +
     '\n' +
     '                    </p>\n' +
@@ -297,7 +300,7 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '                    <div class="service-block">\n' +
     '                        <i class="icon ti-timer ttext-primary"></i>\n' +
     '                        <h4 class="lighter">Realtime</h4>\n' +
-    '                        <p>Even today, realtime is difficult to implement. We provide a scalable and simple to use real time programming model. Just use it if you need. You can progressively make your entities reactive but at your own pace, as you app evolves.</p>\n' +
+    '                        <p>Even today, realtime is difficult to implement. We provide a scalable and simple to use real time programming model. Just use it if you need. You can progressively make your entities reactive but at your own pace, as your app evolves.</p>\n' +
     '                        <div class="space hidden-sm hidden-xs"></div>\n' +
     '                    </div>\n' +
     '                </div>\n' +
@@ -324,8 +327,8 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '                        <p>\n' +
     '                            - Fast build process with ready to use tasks\n' +
     '                            <br/>- Instrument your code with Sentry and Mixpanel\n' +
-    '                            <br/>- Publish your app to testfairy\n' +
-    '                            <br/>- Enjoy hot push code for instant updates of your app\n' +
+    '                            <br/>- Publish your app to Testfairy\n' +
+    '                            <br/>- Hot push code for instant updates\n' +
     '                        </p>\n' +
     '\n' +
     '                        <br/>\n' +
