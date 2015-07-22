@@ -214,7 +214,7 @@ module.exports = '<!-- PARALLAX SECTION -->\n' +
     '                    <h2 class="lighter">See it in action...</h2>\n' +
     '                    <div class="video-container">\n' +
     '\n' +
-    '                        <iframe src="http://www.youtube.com/embed/CYPgXyN5OTI" frameborder="0" width="560" height="315"></iframe>\n' +
+    '                        <iframe src="http://www.youtube.com/embed/6v3TYaXoShQ" frameborder="0" width="560" height="315"></iframe>\n' +
     '                    </div>\n' +
     '                </div>\n' +
     '            </div>\n' +
